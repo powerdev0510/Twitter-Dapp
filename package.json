@@ -1,0 +1,31 @@
+{
+  "name": "decentralizedtwitter",
+  "version": "1.0.0",
+  "description": "Decentralized twitter is a social network build on Ethereum Blockchain. ",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "truffle": "truffle",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:local": "truffle deploy --network development"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0",
+    "ethereumjs-tx": "^1.3.7",
+    "ethereumjs-wallet": "^0.6.2",
+    "openzeppelin-solidity": "^3.1.0",
+    "truffle": "5.0.1",
+    "truffle-hdwallet-provider": "^1.0.2",
+    "truffle-privatekey-provider": "^1.3.0",
+    "web3": "^1.2.4"
+  },
+  "author": "Hoang Quan Tran",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.4",
+    "prettier": "^1.18.2",
+    "prettier-plugin-solidity-refactor": "^1.0.0-alpha.14"
+  }
+}
